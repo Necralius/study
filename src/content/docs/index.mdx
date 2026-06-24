@@ -1,0 +1,43 @@
+---
+title: Início
+description: Mini apostila online para o concurso de Professor Educação Infantil da Prefeitura de Campina Grande/PB.
+template: splash
+hero:
+  tagline: Prefeitura de Campina Grande/PB - banca IDECAN
+  actions:
+    - text: Abrir guia de estudo
+      link: /guia-de-estudo/
+      icon: right-arrow
+    - text: Ver fontes oficiais
+      link: /fontes-oficiais/
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Disciplinas
+
+<CardGrid>
+  <Card title="Língua Portuguesa" href="/lingua-portuguesa/interpretacao-textual/">
+    Interpretação textual, sintaxe, morfologia e norma-padrão.
+  </Card>
+  <Card title="Noções de Informática" href="/informatica/hardware-arquivos-sistemas-operacionais/">
+    Hardware, arquivos, sistemas, produtividade, internet e segurança.
+  </Card>
+  <Card title="História de Campina Grande/PB" href="/historia-campina-grande/">
+    Linha de estudo reservada para conteúdo histórico validado em fontes confiáveis.
+  </Card>
+  <Card title="Legislação e Ética" href="/legislacao-etica/lei-organica/">
+    Lei Orgânica, LGPD, LAI e princípios da Administração Pública.
+  </Card>
+  <Card title="Conhecimentos Específicos" href="/conhecimentos-especificos/bncc-dcnei/">
+    Educação Infantil, desenvolvimento, inclusão, avaliação e legislação educacional.
+  </Card>
+  <Card title="Questões rápidas" href="/questoes-rapidas/">
+    Espaço para revisões curtas e exercícios objetivos.
+  </Card>
+</CardGrid>
+
+:::note
+Esta fase cria a estrutura da apostila. Os conteúdos detalhados entram depois, sempre com conferência de fontes.
+:::

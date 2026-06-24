@@ -9,6 +9,9 @@ node_modules/
 # Vercel
 .vercel/
 
+# Astro
+.astro/
+
 # Build output
 dist/
 build/
@@ -33,4 +36,3 @@ Thumbs.db
 Desktop.ini
 .vscode/
 .idea/
-
