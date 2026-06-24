@@ -1,0 +1,16 @@
+---
+interface Props {
+  name: string;
+  link: string;
+  note?: string;
+}
+
+const { name, link, note } = Astro.props;
+---
+
+<aside class="source-box">
+  <p class="source-box__label">Fonte</p>
+  <a href={link} target="_blank" rel="noreferrer">{name}</a>
+  {note && <p>{note}</p>}
+</aside>
+

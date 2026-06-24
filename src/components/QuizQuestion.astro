@@ -1,0 +1,24 @@
+---
+interface Props {
+  question: string;
+  alternatives: string[];
+  answer: string;
+  comment: string;
+}
+
+const { question, alternatives, answer, comment } = Astro.props;
+---
+
+<section class="quiz-question">
+  <p class="quiz-question__label">Questao de treino</p>
+  <h2>{question}</h2>
+  <ol type="A">
+    {alternatives.map((alternative) => <li>{alternative}</li>)}
+  </ol>
+  <details>
+    <summary>Ver gabarito comentado</summary>
+    <p><strong>Gabarito:</strong> {answer}</p>
+    <p>{comment}</p>
+  </details>
+</section>
+

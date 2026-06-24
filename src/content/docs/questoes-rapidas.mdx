@@ -1,0 +1,37 @@
+---
+title: Questoes rapidas
+description: Espaco para treino objetivo por disciplina.
+---
+
+import Flashcard from '../../components/Flashcard.astro';
+import QuizQuestion from '../../components/QuizQuestion.astro';
+import Checklist from '../../components/Checklist.astro';
+
+## Banco de questoes
+
+TODO: Criar questoes autorais ou referenciadas, separadas por disciplina, apos validacao do conteudo.
+
+<QuizQuestion
+  question="Na Educacao Infantil, a avaliacao deve servir principalmente para:"
+  alternatives={[
+    'Classificar criancas por desempenho.',
+    'Acompanhar o desenvolvimento e orientar a pratica pedagogica.',
+    'Substituir registros pedagogicos por provas objetivas.',
+    'Definir promocao ou retencao anual.',
+  ]}
+  answer="B"
+  comment="A resposta comentada completa sera refinada na fase de conteudo, com base nas normas oficiais."
+/>
+
+## Revisao relampago
+
+<Flashcard front="Como usar flashcards?" back="Leia a frente, responda mentalmente e abra apenas depois. Se errar, volte ao resumo do topico." />
+
+<Checklist
+  title="Ritual de treino"
+  items={[
+    'Responder questoes sem consultar o resumo.',
+    'Marcar erros recorrentes no caderno de erros.',
+    'Revisar os flashcards no fim do ciclo.',
+  ]}
+/>

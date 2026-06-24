@@ -1,6 +1,6 @@
 ---
-title: Início
-description: Mini apostila online para o concurso de Professor Educação Infantil da Prefeitura de Campina Grande/PB.
+title: Inicio
+description: Mini apostila online para o concurso de Professor Educacao Infantil da Prefeitura de Campina Grande/PB.
 template: splash
 hero:
   tagline: Prefeitura de Campina Grande/PB - banca IDECAN
@@ -13,31 +13,19 @@ hero:
       variant: secondary
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import StudyCard from '../../components/StudyCard.astro';
 
 ## Disciplinas
 
-<CardGrid>
-  <Card title="Língua Portuguesa" href="/lingua-portuguesa/interpretacao-textual/">
-    Interpretação textual, sintaxe, morfologia e norma-padrão.
-  </Card>
-  <Card title="Noções de Informática" href="/informatica/hardware-arquivos-sistemas-operacionais/">
-    Hardware, arquivos, sistemas, produtividade, internet e segurança.
-  </Card>
-  <Card title="História de Campina Grande/PB" href="/historia-campina-grande/">
-    Linha de estudo reservada para conteúdo histórico validado em fontes confiáveis.
-  </Card>
-  <Card title="Legislação e Ética" href="/legislacao-etica/lei-organica/">
-    Lei Orgânica, LGPD, LAI e princípios da Administração Pública.
-  </Card>
-  <Card title="Conhecimentos Específicos" href="/conhecimentos-especificos/bncc-dcnei/">
-    Educação Infantil, desenvolvimento, inclusão, avaliação e legislação educacional.
-  </Card>
-  <Card title="Questões rápidas" href="/questoes-rapidas/">
-    Espaço para revisões curtas e exercícios objetivos.
-  </Card>
-</CardGrid>
+<div class="study-card-grid">
+  <StudyCard title="Lingua Portuguesa" description="Interpretacao textual, sintaxe, morfologia e norma-padrao." link="/lingua-portuguesa/interpretacao-textual/" priority="media" />
+  <StudyCard title="Nocoes de Informatica" description="Hardware, arquivos, sistemas, produtividade, internet e seguranca." link="/informatica/hardware-arquivos-sistemas-operacionais/" priority="baixa" />
+  <StudyCard title="Historia de Campina Grande/PB" description="Linha de estudo reservada para conteudo historico validado em fontes confiaveis." link="/historia-campina-grande/" priority="baixa" />
+  <StudyCard title="Legislacao e Etica" description="Lei Organica, LGPD, LAI e principios da Administracao Publica." link="/legislacao-etica/lei-organica/" priority="media" />
+  <StudyCard title="Conhecimentos Especificos" description="Educacao Infantil, desenvolvimento, inclusao, avaliacao e legislacao educacional." link="/conhecimentos-especificos/bncc-dcnei/" priority="alta" />
+  <StudyCard title="Questoes rapidas" description="Espaco para revisoes curtas e exercicios objetivos." link="/questoes-rapidas/" priority="treine" />
+</div>
 
 :::note
-Esta fase cria a estrutura da apostila. Os conteúdos detalhados entram depois, sempre com conferência de fontes.
+Esta fase cria o padrao visual da apostila. Os conteudos detalhados entram depois, sempre com conferencia de fontes.
 :::

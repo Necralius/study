@@ -1,0 +1,45 @@
+---
+title: Fontes
+description: Registro tecnico das fontes oficiais usadas para sustentar a apostila.
+---
+
+import { officialSources } from '../../../data/sources';
+
+## Registro de fontes oficiais
+
+Esta pagina centraliza as fontes normativas e institucionais usadas no site. Para legislacao, documentos curriculares e edital, a fonte principal deve ser oficial. Blogs, cursos e resumos podem ajudar na linguagem, mas nao substituem edital, lei, resolucao ou documento publicado pelo orgao competente.
+
+<div className="source-registry">
+  {officialSources.map((source) => (
+    <article className="source-registry-card">
+      <div className="source-registry-card__header">
+        <p>{source.type}</p>
+        <h2>{source.name}</h2>
+      </div>
+      <p>
+        <strong>Link oficial:</strong>{' '}
+        <a href={source.url} target="_blank" rel="noreferrer">
+          {source.url}
+        </a>
+      </p>
+      <div>
+        <strong>Paginas que usam:</strong>
+        <ul>
+          {source.usedBy.map((page) => (
+            <li>
+              <a href={page.href}>{page.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <p>
+        <strong>Observacao sobre atualizacao:</strong> {source.updateNote}
+      </p>
+    </article>
+  ))}
+</div>
+
+## Regra editorial
+
+Nao usar blogs como fonte principal para legislacao, edital, normas educacionais ou documentos curriculares. Quando um material de apoio for util, ele deve ser tratado apenas como apoio de linguagem e nunca como fundamento normativo.
+

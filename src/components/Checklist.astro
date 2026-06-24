@@ -1,0 +1,23 @@
+---
+interface Props {
+  title?: string;
+  items: string[];
+}
+
+const { title = 'Checklist de revisao', items } = Astro.props;
+---
+
+<section class="checklist">
+  <h2>{title}</h2>
+  <ul>
+    {items.map((item) => (
+      <li>
+        <label>
+          <input type="checkbox" />
+          <span>{item}</span>
+        </label>
+      </li>
+    ))}
+  </ul>
+</section>
+

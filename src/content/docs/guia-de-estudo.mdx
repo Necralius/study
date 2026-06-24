@@ -1,0 +1,71 @@
+---
+title: Guia de estudo
+description: Organizacao inicial da rotina de estudos.
+---
+
+import ResumoBox from '../../components/ResumoBox.astro';
+import PegadinhaBox from '../../components/PegadinhaBox.astro';
+import Checklist from '../../components/Checklist.astro';
+import StudyCard from '../../components/StudyCard.astro';
+
+## Como usar o site
+
+Use esta apostila como um roteiro de revisao ativa: leia o resumo, marque os pontos de atencao, volte nas pegadinhas e feche cada ciclo com questoes. Os resumos completos ainda serao escritos nas proximas fases; por enquanto, o foco e organizar o estudo.
+
+<ResumoBox>
+  Comece por Conhecimentos Especificos, porque essa area tende a concentrar o maior peso pratico para Professor de Educacao Infantil. Depois mantenha Portugues, Informatica, Legislacao e Historia em rotacao curta para nao perder contato.
+</ResumoBox>
+
+<PegadinhaBox>
+  A banca pode misturar conceitos parecidos, como alfabetizacao e letramento, cuidar e educar, avaliacao classificatoria e avaliacao formativa. Ao revisar, anote sempre a diferenca entre termos proximos.
+</PegadinhaBox>
+
+## Ordem recomendada
+
+<div class="study-card-grid">
+  <StudyCard title="1. Conhecimentos Especificos" description="BNCC, DCNEI, desenvolvimento, avaliacao, inclusao, teorias pedagogicas e legislacao educacional." link="/conhecimentos-especificos/bncc-dcnei/" priority="alta" />
+  <StudyCard title="2. Lingua Portuguesa" description="Interpretacao, sintaxe, morfologia e norma-padrao para ganhar pontos recorrentes." link="/lingua-portuguesa/interpretacao-textual/" priority="media" />
+  <StudyCard title="3. Legislacao e Etica" description="Leitura objetiva de leis, principios administrativos e direitos do cidadao." link="/legislacao-etica/lei-organica/" priority="media" />
+  <StudyCard title="4. Informatica e Historia" description="Revisoes curtas, termos tecnicos e fatos locais que costumam virar questoes diretas." link="/informatica/hardware-arquivos-sistemas-operacionais/" priority="baixa" />
+</div>
+
+## Rotina de 7 dias
+
+<Checklist
+  title="Ciclo intensivo"
+  items={[
+    'Dias 1 e 2: BNCC, DCNEI e avaliacao na Educacao Infantil.',
+    'Dia 3: desenvolvimento, aprendizagem, inclusao e diversidade.',
+    'Dia 4: alfabetizacao, letramento e teorias pedagogicas.',
+    'Dia 5: Portugues com foco em interpretacao e norma-padrao.',
+    'Dia 6: Legislacao, Informatica e Historia de Campina Grande/PB.',
+    'Dia 7: revisao geral com questoes rapidas e caderno de erros.',
+  ]}
+/>
+
+## Rotina de 15 dias
+
+<Checklist
+  title="Ciclo equilibrado"
+  items={[
+    'Dias 1 a 6: Conhecimentos Especificos em blocos de 60 a 90 minutos.',
+    'Dias 7 a 9: Lingua Portuguesa com leitura e questoes.',
+    'Dias 10 e 11: Legislacao e Etica com revisao seca dos conceitos.',
+    'Dias 12 e 13: Informatica e Historia local.',
+    'Dia 14: simulado curto por disciplina.',
+    'Dia 15: revisar erros, mapas mentais e flashcards.',
+  ]}
+/>
+
+## Rotina de 30 dias
+
+<Checklist
+  title="Ciclo completo"
+  items={[
+    'Semanas 1 e 2: construir base forte em Conhecimentos Especificos.',
+    'Semana 3: alternar Portugues, Legislacao, Informatica e Historia.',
+    'Semana 4: revisao por questoes, flashcards e simulados curtos.',
+    'A cada 3 dias: revisar o que foi estudado antes de iniciar assunto novo.',
+    'Ultimos 2 dias: priorizar caderno de erros e temas de alta incidencia.',
+  ]}
+/>

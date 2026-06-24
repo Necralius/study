@@ -1,0 +1,15 @@
+---
+interface Props {
+  title?: string;
+}
+
+const { title = 'Como a banca pode cobrar' } = Astro.props;
+---
+
+<aside class="study-box study-box--pegadinha">
+  <p class="study-box__label">{title}</p>
+  <div class="study-box__content">
+    <slot />
+  </div>
+</aside>
+

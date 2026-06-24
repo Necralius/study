@@ -96,6 +96,7 @@ export default defineConfig({
           items: [
             { label: 'Questões rápidas', slug: 'questoes-rapidas' },
             { label: 'Fontes oficiais', slug: 'fontes-oficiais' },
+            { label: 'Registro de fontes', slug: 'fontes' },
           ],
         },
       ],

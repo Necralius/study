@@ -1,0 +1,15 @@
+---
+interface Props {
+  title?: string;
+}
+
+const { title = 'Resumo essencial' } = Astro.props;
+---
+
+<aside class="study-box study-box--resumo">
+  <p class="study-box__label">{title}</p>
+  <div class="study-box__content">
+    <slot />
+  </div>
+</aside>
+

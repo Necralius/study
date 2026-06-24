@@ -1,0 +1,22 @@
+---
+import PriorityBadge from './PriorityBadge.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  link: string;
+  priority?: string;
+}
+
+const { title, description, link, priority } = Astro.props;
+---
+
+<a class="study-card" href={link}>
+  <span class="study-card__topline">
+    {priority && <PriorityBadge priority={priority} />}
+  </span>
+  <span class="study-card__title">{title}</span>
+  <span class="study-card__description">{description}</span>
+  <span class="study-card__action">Estudar agora</span>
+</a>
+

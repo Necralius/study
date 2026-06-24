@@ -1,0 +1,14 @@
+---
+interface Props {
+  front: string;
+  back: string;
+}
+
+const { front, back } = Astro.props;
+---
+
+<details class="flashcard">
+  <summary>{front}</summary>
+  <div class="flashcard__back">{back}</div>
+</details>
+

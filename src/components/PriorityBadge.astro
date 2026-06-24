@@ -1,0 +1,25 @@
+---
+type Priority = 'alta' | 'media' | 'baixa' | 'decore' | 'entenda' | 'treine';
+
+interface Props {
+  priority: Priority | string;
+}
+
+const { priority } = Astro.props;
+const normalized = String(priority).toLowerCase();
+const className = normalized.replace('média', 'media').replace('é', 'e');
+const labels: Record<string, string> = {
+  alta: 'Alta',
+  media: 'Media',
+  'média': 'Media',
+  baixa: 'Baixa',
+  decore: 'Decore',
+  entenda: 'Entenda',
+  treine: 'Treine',
+};
+---
+
+<span class={`priority-badge priority-badge--${className}`}>
+  {labels[normalized] ?? priority}
+</span>
+
