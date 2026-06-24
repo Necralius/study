@@ -34,18 +34,13 @@ export default defineConfig({
           ],
         },
         {
-          label: 'Noções de Informática',
+          label: 'Nocoes de Informatica',
           items: [
-            {
-              label: 'Hardware, arquivos e sistemas operacionais',
-              slug: 'informatica/hardware-arquivos-sistemas-operacionais',
-            },
-            { label: 'Editor de textos e planilhas', slug: 'informatica/editor-textos-planilhas' },
-            {
-              label: 'Internet, e-mail e reuniões online',
-              slug: 'informatica/internet-email-reunioes-online',
-            },
-            { label: 'Segurança da informação', slug: 'informatica/seguranca-informacao' },
+            { label: 'Visao geral', slug: 'informatica' },
+            { label: 'Hardware e sistemas', slug: 'informatica/hardware-sistemas' },
+            { label: 'Editores e planilhas', slug: 'informatica/editores-planilhas' },
+            { label: 'Internet, e-mail e reunioes', slug: 'informatica/internet-email-reunioes' },
+            { label: 'Seguranca da informacao', slug: 'informatica/seguranca-informacao' },
           ],
         },
         { label: 'História de Campina Grande/PB', slug: 'historia-campina-grande' },

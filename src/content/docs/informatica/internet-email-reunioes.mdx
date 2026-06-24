@@ -1,0 +1,102 @@
+---
+title: Internet, e-mail e reuniões
+description: Correio eletrônico, anexos, reuniões online, internet, intranet, extranet, navegadores e nuvem.
+---
+
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+
+## Introdução curta
+
+Internet, e-mail e reuniões online aparecem em prova por uso cotidiano: enviar mensagens, anexar arquivos, navegar, pesquisar, identificar URLs e diferenciar serviços.
+
+## O que estudar
+
+- Correio eletrônico: remetente, destinatário, assunto, corpo, anexos, CC e CCO.
+- Preparo e envio de mensagens, resposta, encaminhamento e boas práticas.
+- Microsoft Teams, Google Meet, Zoom, Skype e Google Hangouts.
+- Internet, intranet e extranet.
+- Protocolos e serviços: HTTP, HTTPS, DNS, FTP, SMTP, POP3 e IMAP.
+- Sítios de busca, URL, links, sites, Firefox e Chrome.
+- Computação em nuvem e redes sociais.
+
+## Resumo essencial
+
+<ResumoBox>
+  E-mail permite envio de mensagens e anexos. CC mostra cópia aos destinatários; CCO oculta os destinatários em cópia. URL é o endereço de um recurso, como `https://www.gov.br/`. HTTP/HTTPS acessam páginas; HTTPS usa camada de segurança. DNS traduz nomes de domínio em endereços IP. Navegadores como Chrome e Firefox permitem acessar sites, abas, favoritos, histórico, downloads e extensões.
+</ResumoBox>
+
+## Diferenças que caem em prova
+
+<PegadinhaBox title="Diferenças que caem em prova">
+  Responder envia ao remetente; responder a todos envia aos envolvidos; encaminhar envia a conversa para novo destinatário. SMTP envia mensagens; POP3 e IMAP recebem, sendo que IMAP mantém sincronização no servidor. Internet é rede pública mundial; intranet é rede interna; extranet permite acesso externo controlado. Link é elemento clicável; site é conjunto de páginas.
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Colocar todos os destinatários em CC quando deveria preservar privacidade com CCO.
+- Abrir anexo inesperado sem conferir remetente e contexto.
+- Confundir navegador com mecanismo de busca: Chrome é navegador; Google Search é buscador.
+- Achar que HTTPS garante que o conteúdo do site é verdadeiro; ele protege a conexão, mas não valida a qualidade da informação.
+- Confundir nuvem com backup automático garantido: depende da configuração.
+
+## Checklist de revisão
+
+<Checklist
+  items={[
+    "Revisei campos de e-mail: Para, CC, CCO, assunto, corpo e anexos.",
+    "Diferenciei responder, responder a todos e encaminhar.",
+    "Revisei Teams, Meet, Zoom, Skype e Hangouts.",
+    "Diferenciei internet, intranet e extranet.",
+    "Revisei URL, links, sites, buscadores, navegadores, nuvem e redes sociais.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="Para que serve CCO?" back="Para enviar cópia ocultando os destinatários em cópia dos demais participantes." />
+<Flashcard front="O que é HTTPS?" back="É o protocolo de acesso web com camada de segurança para proteger a comunicação." />
+<Flashcard front="O que faz o DNS?" back="Traduz nomes de domínio, como gov.br, para endereços IP." />
+<Flashcard front="Chrome e Firefox são o quê?" back="Navegadores, usados para acessar páginas e serviços web." />
+<Flashcard front="O que é nuvem?" back="Uso de recursos, armazenamento e serviços pela internet, em servidores de terceiros." />
+
+## Questões rápidas
+
+<QuizQuestion
+  question="No e-mail, o campo CCO é usado para:"
+  alternatives={["Enviar cópia oculta.", "Apagar anexos.", "Criar senha do computador.", "Trocar o navegador padrão."]}
+  answer="A"
+  comment="CCO permite enviar cópia sem expor aqueles endereços aos demais destinatários."
+/>
+
+<QuizQuestion
+  question="Qual protocolo é associado ao envio de e-mails?"
+  alternatives={["SMTP.", "POP3.", "IMAP.", "DNS."]}
+  answer="A"
+  comment="SMTP é usado para envio. POP3 e IMAP são usados para recebimento/acesso à caixa postal."
+/>
+
+<QuizQuestion
+  question="A diferença básica entre internet e intranet é que:"
+  alternatives={["Internet é pública e intranet é rede interna restrita.", "Intranet sempre dispensa autenticação.", "Internet não usa protocolos.", "Intranet é sinônimo de navegador."]}
+  answer="A"
+  comment="Intranet pertence a uma organização e costuma ter acesso restrito."
+/>
+
+<QuizQuestion
+  question="Google Chrome e Mozilla Firefox são exemplos de:"
+  alternatives={["Planilhas.", "Navegadores.", "Antivírus obrigatórios.", "Extensões de imagem."]}
+  answer="B"
+  comment="Eles permitem navegar em páginas web, usar abas, favoritos, histórico e downloads."
+/>
+
+<QuizQuestion
+  question="Em reuniões online, recurso usado para exibir slides ou uma janela aos participantes é:"
+  alternatives={["Compartilhamento de tela.", "CCO.", "Desfragmentação.", "Formatação condicional."]}
+  answer="A"
+  comment="Teams, Meet, Zoom e Skype costumam oferecer compartilhamento de tela."
+/>
+

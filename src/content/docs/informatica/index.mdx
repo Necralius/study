@@ -1,0 +1,102 @@
+---
+title: Informática
+description: Roteiro de revisão de Noções de Informática para concursos IDECAN.
+---
+
+import StudyCard from '../../../components/StudyCard.astro';
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+
+## Introdução curta
+
+Noções de Informática cobra uso prático do computador, internet, aplicativos e segurança. Para a IDECAN, revise conceitos básicos com atenção a diferenças: memória e armazenamento, arquivo e atalho, internet e intranet, antivírus e firewall.
+
+## O que estudar
+
+<div className="study-card-grid">
+  <StudyCard title="Hardware e sistemas" description="Componentes, memórias, periféricos, arquivos, Windows, Linux e manipulação de pastas." link="/informatica/hardware-sistemas/" priority="alta" />
+  <StudyCard title="Editores e planilhas" description="Documentos, formatação, tabelas, impressão, células, fórmulas, funções, gráficos e macros." link="/informatica/editores-planilhas/" priority="alta" />
+  <StudyCard title="Internet, e-mail e reuniões" description="E-mail, anexos, navegadores, busca, nuvem, redes sociais e ferramentas de reunião." link="/informatica/internet-email-reunioes/" priority="media" />
+  <StudyCard title="Segurança da informação" description="CID, assinatura digital, backup, antivírus, firewall, malwares e ataques." link="/informatica/seguranca-informacao/" priority="alta" />
+</div>
+
+## Resumo essencial
+
+<ResumoBox>
+  Hardware é a parte física; software é o conjunto de programas. Sistema operacional gerencia recursos e arquivos. Editores de texto cuidam de documentos; planilhas trabalham com células, fórmulas e dados. Na internet, protocolos, URLs e navegadores permitem acesso a serviços. Em segurança, o trio central é confidencialidade, integridade e disponibilidade.
+</ResumoBox>
+
+## Diferenças que caem em prova
+
+<PegadinhaBox title="Diferenças que caem em prova">
+  HD/SSD armazenam dados mesmo sem energia; RAM é memória volátil. Atalho aponta para um item; arquivo é o conteúdo real. Internet é pública; intranet é rede interna; extranet abre acesso controlado a usuários externos. Antivírus detecta códigos maliciosos; firewall controla tráfego de rede.
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Confundir memória RAM com armazenamento permanente.
+- Apagar um atalho achando que apagou o arquivo original.
+- Pensar que todo anexo de e-mail é seguro porque veio de conhecido.
+- Tratar navegador e site como a mesma coisa.
+- Achar que backup no mesmo disco protege contra falha física do disco.
+
+## Checklist de revisão
+
+<Checklist
+  items={[
+    "Revisei hardware, memórias, armazenamento e periféricos.",
+    "Diferenciei arquivo, pasta, diretório, atalho e área de transferência.",
+    "Revisei editores de texto, planilhas, fórmulas e funções básicas.",
+    "Revisei e-mail, anexos, navegadores, URL, links e busca.",
+    "Revisei segurança: CID, backup, antivírus, firewall, malware e ataques.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="Qual a diferença entre RAM e SSD?" back="RAM é volátil e usada durante a execução dos programas. SSD é armazenamento permanente." />
+<Flashcard front="O que é um atalho?" back="É uma referência para abrir um arquivo, pasta ou programa, sem ser o item original." />
+<Flashcard front="O que faz uma fórmula em planilha?" back="Calcula resultados a partir de valores, células, operadores e funções." />
+<Flashcard front="O que é URL?" back="É o endereço usado para localizar um recurso na web, como uma página ou arquivo." />
+<Flashcard front="Qual é o objetivo do backup?" back="Permitir recuperação de dados em caso de perda, exclusão, falha, roubo ou ataque." />
+
+## Questões rápidas
+
+<QuizQuestion
+  question="A memória usada temporariamente durante a execução de programas é:"
+  alternatives={["SSD.", "RAM.", "Pendrive.", "DVD."]}
+  answer="B"
+  comment="A RAM é memória volátil de trabalho; perde o conteúdo quando o computador é desligado."
+/>
+
+<QuizQuestion
+  question="Ao excluir um atalho da área de trabalho, em regra:"
+  alternatives={["O arquivo original é sempre apagado.", "Apenas a referência é removida.", "O sistema operacional é desinstalado.", "A memória RAM é formatada."]}
+  answer="B"
+  comment="Atalho não é o arquivo original; normalmente só aponta para ele."
+/>
+
+<QuizQuestion
+  question="Em planilhas, a fórmula =SOMA(A1:A3) serve para:"
+  alternatives={["Somar os valores de A1 até A3.", "Ordenar nomes em ordem alfabética.", "Criar um novo arquivo.", "Enviar mensagem por e-mail."]}
+  answer="A"
+  comment="SOMA calcula a adição dos valores no intervalo indicado."
+/>
+
+<QuizQuestion
+  question="A tríade clássica da segurança da informação é:"
+  alternatives={["Busca, navegador e link.", "Confidencialidade, integridade e disponibilidade.", "Monitor, teclado e mouse.", "Texto, tabela e gráfico."]}
+  answer="B"
+  comment="CID é base de segurança: proteger sigilo, preservar correção e manter acesso autorizado."
+/>
+
+<QuizQuestion
+  question="A rede interna de uma organização, geralmente restrita aos seus usuários, é chamada de:"
+  alternatives={["Intranet.", "Internet pública.", "URL.", "Anexo."]}
+  answer="A"
+  comment="Intranet é rede privada interna; extranet é acesso externo controlado a parte dessa rede."
+/>
+

@@ -1,0 +1,101 @@
+---
+title: Editores e planilhas
+description: Editor de textos, documentos, formatação, impressão, planilhas, fórmulas, funções e gráficos.
+---
+
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+
+## Introdução curta
+
+Editores de texto e planilhas eletrônicas são cobrados de forma prática: menus, recursos, formatação, impressão, células, fórmulas e funções. O foco é saber para que serve cada ferramenta.
+
+## O que estudar
+
+- Editor de textos: estrutura de documentos, edição, formatação, fontes, parágrafos e estilos.
+- Cabeçalhos, rodapés, colunas, marcadores, numeração, tabelas e impressão.
+- Quebras e numeração de páginas, legendas, índices, objetos, campos e caixas de texto.
+- Planilhas: células, linhas, colunas, pastas de trabalho, planilhas e gráficos.
+- Fórmulas, funções, referências relativas e absolutas, macros, impressão e classificação.
+- Dados externos: importação, classificação, filtros e organização de dados.
+
+## Resumo essencial
+
+<ResumoBox>
+  Editor de texto organiza conteúdo em páginas, parágrafos, seções, tabelas e objetos. Planilha organiza dados em células, linhas e colunas. Fórmula começa com sinal de igual, como `=A1+B1`. Funções são fórmulas prontas, como `=SOMA(A1:A10)`, `=MÉDIA(B1:B5)`, `=MÁXIMO(C1:C8)`, `=MÍNIMO(C1:C8)` e `=SE(A1>=7;"Aprovado";"Revisar")`.
+</ResumoBox>
+
+## Diferenças que caem em prova
+
+<PegadinhaBox title="Diferenças que caem em prova">
+  Cabeçalho fica no topo da página; rodapé fica embaixo. Quebra de página inicia nova página; quebra de seção permite mudar configuração de parte do documento. Linha é horizontal; coluna é vertical. Pasta de trabalho é o arquivo da planilha; planilha é uma aba dentro dele. Macro automatiza tarefas e pode trazer risco se vier de fonte não confiável.
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Confundir alinhamento de parágrafo com margem da página.
+- Achar que marcador e numeração são a mesma coisa: marcador usa símbolos; numeração usa sequência.
+- Esquecer que fórmulas em planilhas começam com `=`.
+- Confundir célula com coluna: `B3` é uma célula na coluna B e linha 3.
+- Habilitar macro de arquivo desconhecido sem verificar origem.
+
+## Checklist de revisão
+
+<Checklist
+  items={[
+    "Revisei recursos de edição e formatação de texto.",
+    "Diferenciei cabeçalho, rodapé, quebra de página e quebra de seção.",
+    "Revisei tabelas, impressão, legendas, índices, objetos e caixas de texto.",
+    "Diferenciei célula, linha, coluna, planilha e pasta de trabalho.",
+    "Revisei fórmulas, funções, gráficos, classificação, filtros e macros.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="O que é cabeçalho?" back="Área no topo da página, usada para informações repetidas, como título, data ou nome." />
+<Flashcard front="O que é célula em planilha?" back="É o cruzamento entre uma coluna e uma linha, como A1 ou C5." />
+<Flashcard front="Como começa uma fórmula?" back="Em planilhas, fórmulas normalmente começam com o sinal de igual: =." />
+<Flashcard front="Para que serve =MÉDIA(A1:A5)?" back="Para calcular a média dos valores do intervalo A1 até A5." />
+<Flashcard front="O que é macro?" back="É uma sequência automatizada de comandos; pode agilizar tarefas, mas exige cuidado de segurança." />
+
+## Questões rápidas
+
+<QuizQuestion
+  question="Em editor de texto, o cabeçalho aparece:"
+  alternatives={["No topo da página.", "Somente no meio do documento.", "Apenas em planilhas.", "Sempre como comentário oculto."]}
+  answer="A"
+  comment="Cabeçalho é a área superior da página; rodapé é a área inferior."
+/>
+
+<QuizQuestion
+  question="Em uma planilha, B7 representa:"
+  alternatives={["A linha B e coluna 7.", "A célula na coluna B e linha 7.", "Uma função de busca.", "Um tipo de gráfico."]}
+  answer="B"
+  comment="A letra identifica a coluna; o número identifica a linha."
+/>
+
+<QuizQuestion
+  question="A função =SOMA(A1:A4) calcula:"
+  alternatives={["O maior valor do intervalo.", "A soma dos valores de A1 a A4.", "A contagem de palavras.", "A impressão da planilha."]}
+  answer="B"
+  comment="SOMA adiciona os valores do intervalo indicado."
+/>
+
+<QuizQuestion
+  question="Marcadores em editor de texto servem principalmente para:"
+  alternatives={["Criar lista com símbolos.", "Criptografar o arquivo.", "Enviar e-mail automático.", "Alterar o hardware."]}
+  answer="A"
+  comment="Marcadores organizam itens de lista com símbolos; numeração usa sequência numérica ou alfabética."
+/>
+
+<QuizQuestion
+  question="Macros devem ser usadas com cuidado porque:"
+  alternatives={["Nunca automatizam tarefas.", "Podem executar comandos e representar risco se forem maliciosas.", "Apagam sempre o sistema operacional.", "Não existem em planilhas."]}
+  answer="B"
+  comment="Macros são úteis, mas arquivos de origem desconhecida podem conter comandos perigosos."
+/>
+

@@ -1,0 +1,102 @@
+---
+title: Hardware e sistemas
+description: Hardware, armazenamento, memórias, periféricos, arquivos, Windows e Linux.
+---
+
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+
+## Introdução curta
+
+Hardware e sistemas operacionais formam a base do uso do computador. A prova costuma cobrar nomes, funções e diferenças práticas entre componentes, arquivos, pastas e recursos do sistema.
+
+## O que estudar
+
+- Hardware: placa-mãe, processador, memória, armazenamento e dispositivos.
+- Dispositivos de armazenamento: HD, SSD, pendrive, cartão de memória, CD, DVD e nuvem.
+- Memórias: RAM, ROM, cache e memória virtual.
+- Periféricos de entrada, saída e entrada/saída.
+- Extensões e arquivos: `.docx`, `.xlsx`, `.pdf`, `.txt`, `.jpg`, `.png`, `.zip`, `.exe`.
+- Windows e Linux: área de trabalho, menus, programas, aplicativos e gerenciadores de arquivos.
+- Pastas, diretórios, arquivos, atalhos, área de transferência e manipulação de itens.
+
+## Resumo essencial
+
+<ResumoBox>
+  CPU processa instruções; RAM guarda dados temporários em uso; HD e SSD armazenam dados de forma permanente. Periféricos permitem entrada e saída de dados. Sistemas operacionais, como Windows e Linux, gerenciam programas, usuários, arquivos, pastas, permissões, dispositivos e interface. Arquivo é unidade de informação; pasta ou diretório organiza arquivos; atalho apenas aponta para um item.
+</ResumoBox>
+
+## Diferenças que caem em prova
+
+<PegadinhaBox title="Diferenças que caem em prova">
+  RAM não é sinônimo de HD. `.exe` costuma indicar executável no Windows; `.pdf` preserva visualização de documento; `.zip` é arquivo compactado. Copiar mantém o original; mover transfere o item; recortar coloca o item na área de transferência para mover. No Windows, o Explorador de Arquivos organiza pastas; no Linux, há estruturas como `/home`, `/etc` e `/bin`.
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Dizer que SSD é memória principal: SSD é armazenamento.
+- Confundir periférico de entrada com saída: teclado entra dados; monitor exibe dados.
+- Achar que extensão garante segurança: um arquivo `.pdf` também pode conter risco se vier de fonte suspeita.
+- Confundir pasta com arquivo.
+- Esquecer que atalhos podem ficar inválidos se o item original for movido ou apagado.
+
+## Checklist de revisão
+
+<Checklist
+  items={[
+    "Diferenciei CPU, RAM, ROM, cache, HD e SSD.",
+    "Classifiquei periféricos de entrada, saída e entrada/saída.",
+    "Revisei extensões comuns e seus usos.",
+    "Diferenciei arquivo, pasta, diretório e atalho.",
+    "Revisei copiar, recortar, colar, renomear, excluir e restaurar.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="O que é CPU?" back="É o processador, responsável por executar instruções e coordenar operações do computador." />
+<Flashcard front="O que é memória cache?" back="Memória muito rápida usada para reduzir o tempo de acesso a dados frequentes." />
+<Flashcard front="Exemplo de periférico de entrada?" back="Teclado, mouse, scanner, microfone e webcam." />
+<Flashcard front="O que faz Ctrl+C e Ctrl+V?" back="Ctrl+C copia; Ctrl+V cola o conteúdo que está na área de transferência." />
+<Flashcard front="O que é uma extensão de arquivo?" back="É a parte final do nome, como .pdf ou .xlsx, que indica formato ou tipo associado." />
+
+## Questões rápidas
+
+<QuizQuestion
+  question="Qual item é armazenamento não volátil?"
+  alternatives={["RAM.", "Cache.", "SSD.", "Registrador."]}
+  answer="C"
+  comment="SSD preserva dados sem energia; RAM, cache e registradores são voláteis."
+/>
+
+<QuizQuestion
+  question="Teclado e mouse são exemplos de periféricos de:"
+  alternatives={["Entrada.", "Saída.", "Armazenamento óptico.", "Processamento."]}
+  answer="A"
+  comment="Eles enviam dados e comandos para o computador."
+/>
+
+<QuizQuestion
+  question="A extensão normalmente associada a planilhas do Microsoft Excel é:"
+  alternatives={[".docx", ".xlsx", ".jpg", ".mp3"]}
+  answer="B"
+  comment="Arquivos atuais do Excel costumam usar .xlsx; documentos do Word usam .docx."
+/>
+
+<QuizQuestion
+  question="A área de transferência é usada para:"
+  alternatives={["Guardar temporariamente itens copiados ou recortados.", "Substituir o disco rígido.", "Instalar drivers automaticamente.", "Criar contas de usuário."]}
+  answer="A"
+  comment="Copiar, recortar e colar dependem da área de transferência."
+/>
+
+<QuizQuestion
+  question="No uso comum, uma pasta serve para:"
+  alternatives={["Executar cálculos da CPU.", "Organizar arquivos e outras pastas.", "Substituir a memória RAM.", "Impedir todos os vírus."]}
+  answer="B"
+  comment="Pastas ou diretórios são estruturas de organização no sistema de arquivos."
+/>
+

@@ -1,0 +1,102 @@
+---
+title: Segurança da informação
+description: Confidencialidade, integridade, disponibilidade, assinatura digital, backup, antivírus, firewalls, malwares e ataques.
+---
+
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+
+## Introdução curta
+
+Segurança da informação protege dados, sistemas e usuários contra acesso indevido, alteração, perda e indisponibilidade. Em concursos, o núcleo é entender conceitos e reconhecer riscos comuns.
+
+## O que estudar
+
+- Confidencialidade, integridade e disponibilidade.
+- Autenticidade, não repúdio, controle de acesso e senhas.
+- Assinatura digital, certificado digital e criptografia.
+- Backup completo, incremental e diferencial.
+- Antivírus, antimalware, firewall e atualizações.
+- Malwares: vírus, worm, trojan, ransomware, spyware, adware, keylogger e rootkit.
+- Ataques: phishing, engenharia social, força bruta, spoofing, DoS/DDoS e man-in-the-middle.
+
+## Resumo essencial
+
+<ResumoBox>
+  Confidencialidade impede acesso não autorizado; integridade protege contra alteração indevida; disponibilidade garante acesso quando necessário. Assinatura digital usa criptografia para indicar autoria e integridade do documento. Backup é cópia de segurança. Antivírus detecta e remove ameaças conhecidas; firewall filtra tráfego de rede conforme regras.
+</ResumoBox>
+
+## Diferenças que caem em prova
+
+<PegadinhaBox title="Diferenças que caem em prova">
+  Criptografia protege o conteúdo; assinatura digital comprova autoria e alteração do documento. Backup completo copia tudo; incremental copia o que mudou desde o último backup; diferencial copia o que mudou desde o último backup completo. Vírus precisa de hospedeiro; worm se propaga pela rede; ransomware sequestra dados e exige resgate; phishing engana o usuário para obter dados.
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Achar que antivírus substitui backup.
+- Confundir firewall com antivírus.
+- Pensar que senha forte dispensa atualização do sistema.
+- Acreditar em link de e-mail sem verificar domínio e contexto.
+- Manter backup conectado o tempo todo, aumentando risco em ataque por ransomware.
+
+## Checklist de revisão
+
+<Checklist
+  items={[
+    "Diferenciei confidencialidade, integridade e disponibilidade.",
+    "Revisei assinatura digital, certificado digital e criptografia.",
+    "Diferenciei backup completo, incremental e diferencial.",
+    "Revisei antivírus, firewall, atualizações e boas práticas de senha.",
+    "Reconheci vírus, worm, trojan, ransomware, spyware, phishing e DDoS.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="O que é confidencialidade?" back="Garantia de que a informação só será acessada por pessoas autorizadas." />
+<Flashcard front="O que é integridade?" back="Garantia de que a informação não foi alterada indevidamente." />
+<Flashcard front="O que é disponibilidade?" back="Garantia de que sistemas e dados estarão acessíveis quando necessários." />
+<Flashcard front="O que é ransomware?" back="Malware que bloqueia ou criptografa dados e exige resgate para liberação." />
+<Flashcard front="O que é phishing?" back="Golpe que usa mensagens falsas para induzir o usuário a revelar dados ou clicar em links maliciosos." />
+
+## Questões rápidas
+
+<QuizQuestion
+  question="A confidencialidade está relacionada a:"
+  alternatives={["Acesso apenas por usuários autorizados.", "Aumento do brilho do monitor.", "Classificação alfabética de planilhas.", "Impressão de documentos."]}
+  answer="A"
+  comment="Confidencialidade protege o sigilo das informações."
+/>
+
+<QuizQuestion
+  question="O malware que se propaga automaticamente por redes é chamado de:"
+  alternatives={["Worm.", "Planilha.", "URL.", "Backup completo."]}
+  answer="A"
+  comment="Worm tem capacidade de propagação automática, sem depender necessariamente de arquivo hospedeiro."
+/>
+
+<QuizQuestion
+  question="O ataque que tenta enganar o usuário por mensagem falsa para roubar credenciais é:"
+  alternatives={["Phishing.", "Fragmentação.", "Cabeçalho.", "Compactação."]}
+  answer="A"
+  comment="Phishing explora engenharia social, geralmente com e-mails, sites ou mensagens fraudulentas."
+/>
+
+<QuizQuestion
+  question="O firewall tem como função principal:"
+  alternatives={["Filtrar tráfego de rede conforme regras.", "Calcular médias em planilhas.", "Formatar parágrafos.", "Substituir todos os backups."]}
+  answer="A"
+  comment="Firewall controla comunicações permitidas ou bloqueadas, reduzindo exposição a acessos indevidos."
+/>
+
+<QuizQuestion
+  question="O backup incremental copia:"
+  alternatives={["Sempre todos os arquivos.", "Apenas o que mudou desde o último backup.", "Somente arquivos de imagem.", "Apenas mensagens de e-mail excluídas."]}
+  answer="B"
+  comment="Incremental registra mudanças desde o backup anterior, seja ele completo ou incremental."
+/>
+
