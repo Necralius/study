@@ -1,0 +1,110 @@
+---
+title: Norma-padrao
+description: Concordancia, regencia, pronomes, colocacao pronominal, ortografia e acentuacao.
+---
+
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+
+## Introducao
+
+Norma-padrao e o conjunto de regras exigidas em contextos formais. Em concurso, ela aparece em questoes de correcao, reescrita, concordancia, regencia, pronomes, ortografia, acentuacao e pontuacao.
+
+## O que estudar
+
+- Pontuacao.
+- Concordancia nominal e verbal.
+- Regencia nominal e verbal.
+- Uso do acento indicativo de crase.
+- Pronomes pessoais, demonstrativos, relativos e formas de tratamento.
+- Colocacao pronominal: proclise, mesoclise e enclise.
+- Ortografia oficial.
+- Acentuacao grafica.
+
+## Resumo essencial
+
+<ResumoBox>
+  Concordancia ajusta palavras em genero, numero e pessoa. Regencia trata da relacao entre termo regente e complemento, com ou sem preposicao. Crase ocorre, em regra, quando ha fusao de preposicao "a" com artigo "a" ou pronome iniciado por "a". Na colocacao pronominal, a proclise e atraida por palavras negativas, pronomes relativos, conjuncoes subordinativas, certos adverbios e pronomes indefinidos.
+</ResumoBox>
+
+## Como a IDECAN pode cobrar
+
+<PegadinhaBox>
+  A banca pode pedir a alternativa de acordo com a norma-padrao ou a justificativa para uma alteracao. Observe sujeito distante do verbo, nomes no plural, verbos que mudam de regencia, pronome relativo precedido de preposicao e palavras que atraem pronome obliquo.
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Concordar o verbo com termo proximo, e nao com o sujeito.
+- Usar crase antes de verbo, palavra masculina ou pronome que nao admite artigo.
+- Confundir "assistir ao filme" com "assistir o paciente"; o sentido altera a regencia.
+- Colocar pronome depois de palavra negativa: "Nao me disseram", e nao "Nao disseram-me".
+- Acentuar palavras que perderam acento pelo Acordo Ortografico, como "ideia" e "assembleia".
+
+## Exemplos
+
+- "Faltaram documentos." O sujeito e "documentos"; verbo no plural.
+- "A equipe assistiu ao video." No sentido de ver, "assistir" pede preposicao "a".
+- "Entreguei o relatorio a diretora" pode ter crase se "diretora" admitir artigo: "Entreguei o relatorio a diretora" no texto sem acento fica ambigua; na norma escrita, "a diretora" com fusao deve ser "a" com acento grave.
+- "Nao se divulgaram os resultados." A palavra negativa atrai o pronome para antes do verbo.
+- "Heroi" e acentuado por ditongo aberto em palavra oxitona; "ideia" nao recebe acento.
+
+## Checklist de revisao
+
+<Checklist
+  items={[
+    "Localizei o sujeito antes de julgar a concordancia verbal.",
+    "Conferi genero e numero nas concordancias nominais.",
+    "Revisei verbos de regencia frequente: assistir, visar, preferir, obedecer, lembrar e esquecer.",
+    "Apliquei crase apenas quando ha preposicao a e termo feminino com artigo ou pronome adequado.",
+    "Revisei palavras atrativas de proclise, ortografia oficial e acentuacao grafica.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="O que e concordancia verbal?" back="E a adequacao do verbo ao sujeito em numero e pessoa." />
+<Flashcard front="O que e concordancia nominal?" back="E a adequacao entre nomes e seus determinantes, como artigo, adjetivo, pronome e numeral." />
+<Flashcard front="Quando ocorre crase?" back="Quando ha fusao da preposicao 'a' com artigo 'a' ou com certos pronomes iniciados por 'a'." />
+<Flashcard front="O que atrai proclise?" back="Palavra negativa, pronome relativo, conjuncao subordinativa, certos adverbios, pronomes indefinidos e interrogativos." />
+<Flashcard front="Antes de verbo ha crase?" back="Nao. Verbo nao admite artigo feminino, portanto nao ocorre fusao com artigo." />
+
+## Questoes rapidas
+
+<QuizQuestion
+  question="Assinale a frase com concordancia verbal adequada:"
+  alternatives={["Faltou documentos na secretaria.", "Faltaram documentos na secretaria.", "Falta documentos na secretaria ontem.", "Faltarao documento na secretaria."]}
+  answer="B"
+  comment="O sujeito 'documentos' esta no plural; o verbo deve concordar: 'Faltaram documentos'."
+/>
+
+<QuizQuestion
+  question="No sentido de 'ver', o verbo 'assistir' deve ser empregado como em:"
+  alternatives={["Assistimos o filme.", "Assistimos ao filme.", "Assistimos filme ontem sem preposicao obrigatoria.", "Assistimos para o filme."]}
+  answer="B"
+  comment="No sentido de ver/presenciar, a norma-padrao recomenda 'assistir a'."
+/>
+
+<QuizQuestion
+  question="A crase esta corretamente empregada em:"
+  alternatives={["Comecou a estudar cedo.", "Chegou a escola no horario.", "Referiu-se a alunas presentes.", "Obedeceu às normas da instituicao."]}
+  answer="D"
+  comment="O verbo 'obedecer' pede preposicao 'a'; diante de 'as normas', ocorre fusao de preposicao com artigo feminino plural."
+/>
+
+<QuizQuestion
+  question="Assinale a colocacao pronominal adequada:"
+  alternatives={["Nao disseram-me a verdade.", "Nao me disseram a verdade.", "Me disseram nao a verdade.", "Disseram nao-me a verdade."]}
+  answer="B"
+  comment="A palavra negativa 'Nao' atrai o pronome: 'Nao me disseram'."
+/>
+
+<QuizQuestion
+  question="Qual palavra segue a regra atual de acentuacao?"
+  alternatives={["Ideia sem acento.", "Assembléia com acento agudo.", "Heroi sem acento.", "Papeis sem acento."]}
+  answer="A"
+  comment="'Ideia' perdeu o acento no Acordo Ortografico. Oxitonas como 'heroi' e 'papeis' recebem acento na escrita normativa."
+/>

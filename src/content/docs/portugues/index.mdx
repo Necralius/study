@@ -1,0 +1,108 @@
+---
+title: Portugues
+description: Roteiro de revisao de Lingua Portuguesa para concursos IDECAN.
+---
+
+import StudyCard from '../../../components/StudyCard.astro';
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+
+## Introducao
+
+Lingua Portuguesa em concurso exige leitura atenta e dominio das regras que afetam sentido, clareza e correcao. Para a IDECAN, revise sempre com exemplos: a banca costuma cobrar interpretacao, reescrita, classe de palavras e norma-padrao em enunciados objetivos.
+
+## O que estudar
+
+<div className="study-card-grid">
+  <StudyCard title="Interpretacao textual" description="Compreensao, inferencia, coesao, coerencia, referencia e operadores argumentativos." link="/portugues/interpretacao-textual/" priority="alta" />
+  <StudyCard title="Sintaxe" description="Termos da oracao, coordenacao, subordinacao, equivalencia estrutural e pontuacao." link="/portugues/sintaxe/" priority="alta" />
+  <StudyCard title="Morfologia" description="Classes de palavras, formacao vocabular, flexao nominal e verbal." link="/portugues/morfologia/" priority="media" />
+  <StudyCard title="Norma-padrao" description="Concordancia, regencia, pronomes, colocacao pronominal, ortografia e acentuacao." link="/portugues/norma-padrao/" priority="alta" />
+</div>
+
+## Resumo essencial
+
+<ResumoBox>
+  Estude Portugues em tres camadas: primeiro entenda o texto; depois reconheca a estrutura das frases; por fim aplique a norma-padrao. Em questoes de reescrita, compare sentido, correcao gramatical e pontuacao. Uma alternativa pode estar gramaticalmente correta, mas alterar o sentido original.
+</ResumoBox>
+
+## Como a IDECAN pode cobrar
+
+<PegadinhaBox>
+  A IDECAN pode apresentar um trecho e pedir inferencia, referente de pronome, valor de conectivo, funcao sintatica, classe de palavra ou equivalencia entre estruturas. Leia o comando antes das alternativas: muitas questoes pedem o que esta "correto", "incorreto", "mantem o sentido" ou "altera o sentido".
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Confundir compreender com inferir: compreensao esta mais explicita; inferencia depende de pistas do texto.
+- Trocar conectivos de valor diferente, como "portanto" por "porem".
+- Julgar pontuacao apenas por pausa de leitura, sem analisar a estrutura sintatica.
+- Aceitar reescrita que melhora o estilo, mas muda o sentido.
+- Esquecer que concordancia e regencia seguem o nucleo dos termos.
+
+## Exemplos
+
+- Texto: "A escola ampliou o atendimento, portanto precisara reorganizar a equipe." O conectivo "portanto" indica conclusao.
+- Texto: "Os documentos foram enviados aos candidatos, que deveriam conferi-los." O pronome "los" retoma "documentos".
+- Reescrita sem mudanca central: "Embora chovesse, a aula ocorreu" equivale, em sentido geral, a "A aula ocorreu, apesar da chuva".
+
+## Checklist de revisao
+
+<Checklist
+  items={[
+    "Li o comando da questao antes de analisar as alternativas.",
+    "Identifiquei ideia central, finalidade e tom do texto.",
+    "Revisei conectivos de causa, conclusao, oposicao, adicao e condicao.",
+    "Revisei sujeito, predicado, complementos e adjuntos.",
+    "Revisei concordancia, regencia, colocacao pronominal, ortografia e acentuacao.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="Qual e a primeira etapa em questao de texto?" back="Identificar tema, ideia central, finalidade e comando da questao." />
+<Flashcard front="Toda alternativa correta gramaticalmente mantem o sentido?" back="Nao. Em reescrita, e preciso verificar gramatica e preservacao do sentido." />
+<Flashcard front="O que e coesao?" back="E a ligacao formal entre partes do texto, feita por pronomes, conectivos, repeticoes controladas e substituicoes." />
+<Flashcard front="O que e coerencia?" back="E a organizacao logica das ideias, sem contradicao e adequada ao contexto." />
+<Flashcard front="Por que pontuacao depende de sintaxe?" back="Porque virgulas, dois-pontos e outros sinais indicam relacoes estruturais, nao apenas pausas." />
+
+## Questoes rapidas
+
+<QuizQuestion
+  question="Em uma questao de reescrita, a alternativa deve ser aceita quando:"
+  alternatives={["Mantem o assunto geral, ainda que mude a conclusao.", "Esta correta gramaticalmente e preserva o sentido exigido.", "Usa palavras mais sofisticadas.", "Reduz o tamanho do periodo."]}
+  answer="B"
+  comment="Reescrita exige correcao e equivalencia semantica. Estilo melhor ou frase menor nao garantem manutencao do sentido."
+/>
+
+<QuizQuestion
+  question="O conectivo 'portanto' normalmente expressa ideia de:"
+  alternatives={["Conclusao.", "Oposicao.", "Condicao.", "Alternancia."]}
+  answer="A"
+  comment="'Portanto' apresenta consequencia ou conclusao em relacao ao que foi dito antes."
+/>
+
+<QuizQuestion
+  question="Quando um pronome retoma termo ja mencionado, ocorre:"
+  alternatives={["Catacrese.", "Referencia anaforica.", "Derivacao prefixal.", "Concordancia ideologica."]}
+  answer="B"
+  comment="A anafora ocorre quando uma palavra aponta para termo anterior no texto."
+/>
+
+<QuizQuestion
+  question="A coerencia textual esta ligada principalmente:"
+  alternatives={["Ao tamanho dos paragrafos.", "Ao uso obrigatorio de palavras dificeis.", "A logica e compatibilidade das ideias.", "A presenca de rimas."]}
+  answer="C"
+  comment="Coerencia envolve sentido global, ausencia de contradicoes e adequacao entre informacoes."
+/>
+
+<QuizQuestion
+  question="Em prova, a melhor estrategia inicial para texto e:"
+  alternatives={["Ler primeiro todas as alternativas sem o texto.", "Memorizar regras de acentuacao antes da leitura.", "Ler o comando e localizar o trecho cobrado.", "Responder pela intuicao de estilo."]}
+  answer="C"
+  comment="O comando orienta o foco da leitura e evita gasto de tempo com informacoes que nao foram perguntadas."
+/>
+

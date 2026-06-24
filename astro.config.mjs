@@ -24,12 +24,13 @@ export default defineConfig({
           ],
         },
         {
-          label: 'Língua Portuguesa',
+          label: 'Lingua Portuguesa',
           items: [
-            { label: 'Interpretação textual', slug: 'lingua-portuguesa/interpretacao-textual' },
-            { label: 'Sintaxe e construção frasal', slug: 'lingua-portuguesa/sintaxe-construcao-frasal' },
-            { label: 'Morfologia', slug: 'lingua-portuguesa/morfologia' },
-            { label: 'Norma-padrão', slug: 'lingua-portuguesa/norma-padrao' },
+            { label: 'Visao geral', slug: 'portugues' },
+            { label: 'Interpretacao textual', slug: 'portugues/interpretacao-textual' },
+            { label: 'Sintaxe', slug: 'portugues/sintaxe' },
+            { label: 'Morfologia', slug: 'portugues/morfologia' },
+            { label: 'Norma-padrao', slug: 'portugues/norma-padrao' },
           ],
         },
         {
