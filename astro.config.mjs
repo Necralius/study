@@ -54,35 +54,18 @@ export default defineConfig({
           ],
         },
         {
-          label: 'Conhecimentos Específicos',
+          label: 'Conhecimentos Especificos',
           items: [
-            { label: 'BNCC e DCNEI', slug: 'conhecimentos-especificos/bncc-dcnei' },
-            {
-              label: 'Avaliação na Educação Infantil',
-              slug: 'conhecimentos-especificos/avaliacao-educacao-infantil',
-            },
-            {
-              label: 'Desenvolvimento e aprendizagem',
-              slug: 'conhecimentos-especificos/desenvolvimento-aprendizagem',
-            },
-            { label: 'Teorias pedagógicas', slug: 'conhecimentos-especificos/teorias-pedagogicas' },
-            {
-              label: 'Alfabetização e letramento',
-              slug: 'conhecimentos-especificos/alfabetizacao-letramento',
-            },
-            { label: 'Inclusão e diversidade', slug: 'conhecimentos-especificos/inclusao-diversidade' },
-            {
-              label: 'Gestão da sala e escola-comunidade',
-              slug: 'conhecimentos-especificos/gestao-sala-escola-comunidade',
-            },
-            {
-              label: 'Legislação educacional',
-              slug: 'conhecimentos-especificos/legislacao-educacional',
-            },
-            {
-              label: 'Pensadores e escolas pedagógicas',
-              slug: 'conhecimentos-especificos/pensadores-escolas-pedagogicas',
-            },
+            { label: 'Visao geral', slug: 'conhecimentos-especificos' },
+            { label: 'Educacao Infantil, BNCC e DCNEI', slug: 'conhecimentos-especificos/educacao-infantil-bncc-dcnei' },
+            { label: 'Avaliacao na Educacao Infantil', slug: 'conhecimentos-especificos/avaliacao-educacao-infantil' },
+            { label: 'Desenvolvimento e aprendizagem', slug: 'conhecimentos-especificos/desenvolvimento-aprendizagem' },
+            { label: 'Teorias pedagogicas', slug: 'conhecimentos-especificos/teorias-pedagogicas' },
+            { label: 'Alfabetizacao e letramento', slug: 'conhecimentos-especificos/alfabetizacao-letramento' },
+            { label: 'Inclusao e diversidade', slug: 'conhecimentos-especificos/inclusao-diversidade' },
+            { label: 'Gestao da sala e escola-comunidade', slug: 'conhecimentos-especificos/gestao-sala-escola-comunidade' },
+            { label: 'Legislacao educacional', slug: 'conhecimentos-especificos/legislacao-educacional' },
+            { label: 'Pensadores e escolas pedagogicas', slug: 'conhecimentos-especificos/pensadores-escolas-pedagogicas' },
           ],
         },
         {

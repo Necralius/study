@@ -55,7 +55,7 @@ export const officialSources: OfficialSource[] = [
     type: 'Documento normativo educacional',
     url: 'https://basenacionalcomum.mec.gov.br/',
     usedBy: [
-      { label: 'BNCC e DCNEI', href: '/conhecimentos-especificos/bncc-dcnei/' },
+      { label: 'BNCC e DCNEI', href: '/conhecimentos-especificos/educacao-infantil-bncc-dcnei/' },
       { label: 'Avaliacao na Educacao Infantil', href: '/conhecimentos-especificos/avaliacao-educacao-infantil/' },
       { label: 'Desenvolvimento e aprendizagem', href: '/conhecimentos-especificos/desenvolvimento-aprendizagem/' },
     ],
@@ -68,7 +68,7 @@ export const officialSources: OfficialSource[] = [
     type: 'Resolucao do Conselho Nacional de Educacao',
     url: 'https://portal.mec.gov.br/dmdocuments/rceb005_09.pdf',
     usedBy: [
-      { label: 'BNCC e DCNEI', href: '/conhecimentos-especificos/bncc-dcnei/' },
+      { label: 'BNCC e DCNEI', href: '/conhecimentos-especificos/educacao-infantil-bncc-dcnei/' },
       { label: 'Avaliacao na Educacao Infantil', href: '/conhecimentos-especificos/avaliacao-educacao-infantil/' },
       { label: 'Gestao da sala e escola-comunidade', href: '/conhecimentos-especificos/gestao-sala-escola-comunidade/' },
     ],
@@ -94,7 +94,7 @@ export const officialSources: OfficialSource[] = [
     url: 'https://www.planalto.gov.br/ccivil_03/leis/l9394.htm',
     usedBy: [
       { label: 'Legislacao educacional', href: '/conhecimentos-especificos/legislacao-educacional/' },
-      { label: 'BNCC e DCNEI', href: '/conhecimentos-especificos/bncc-dcnei/' },
+      { label: 'BNCC e DCNEI', href: '/conhecimentos-especificos/educacao-infantil-bncc-dcnei/' },
       { label: 'Alfabetizacao e letramento', href: '/conhecimentos-especificos/alfabetizacao-letramento/' },
     ],
     updateNote:
