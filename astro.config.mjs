@@ -44,15 +44,13 @@ export default defineConfig({
           ],
         },
         { label: 'História de Campina Grande/PB', slug: 'historia-campina-grande' },
-        {
-          label: 'Legislação e Ética',
+                {
+          label: 'Legislacao e Etica',
           items: [
-            { label: 'Lei Orgânica', slug: 'legislacao-etica/lei-organica' },
+            { label: 'Visao geral', slug: 'legislacao-etica' },
+            { label: 'Lei Organica', slug: 'legislacao-etica/lei-organica' },
             { label: 'LGPD e LAI', slug: 'legislacao-etica/lgpd-lai' },
-            {
-              label: 'Ética e princípios da Administração Pública',
-              slug: 'legislacao-etica/etica-principios-administracao-publica',
-            },
+            { label: 'Etica e principios', slug: 'legislacao-etica/etica-principios' },
           ],
         },
         {

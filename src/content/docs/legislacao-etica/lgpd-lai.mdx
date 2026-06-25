@@ -1,0 +1,108 @@
+---
+title: LGPD e LAI
+description: Proteção de dados pessoais, acesso à informação e transparência pública.
+---
+
+import ResumoBox from '../../../components/ResumoBox.astro';
+import PegadinhaBox from '../../../components/PegadinhaBox.astro';
+import Checklist from '../../../components/Checklist.astro';
+import Flashcard from '../../../components/Flashcard.astro';
+import QuizQuestion from '../../../components/QuizQuestion.astro';
+import SourceBox from '../../../components/SourceBox.astro';
+
+## Introdução curta
+
+LGPD e LAI devem ser estudadas juntas porque o serviço público precisa equilibrar transparência e proteção de dados pessoais. Publicidade é regra para atos públicos, mas dados pessoais e informações sigilosas exigem cuidado.
+
+## O que estudar
+
+- LGPD: dado pessoal, dado pessoal sensível, tratamento, controlador, operador e titular.
+- Bases gerais de proteção de dados e atuação do poder público.
+- Segurança, finalidade, necessidade, transparência e responsabilização.
+- LAI: direito de acesso à informação pública.
+- Publicidade como regra e sigilo como exceção.
+- Prazos, transparência ativa, transparência passiva e classificação de sigilo.
+
+## Resumo essencial
+
+<ResumoBox>
+  A LGPD protege dados pessoais de pessoas naturais. Dado pessoal identifica ou pode identificar alguém; dado sensível envolve origem racial ou étnica, religião, opinião política, saúde, vida sexual, dado genético ou biométrico, entre outros. A LAI regula o acesso a informações públicas. No serviço público, a regra é transparência, mas não se deve divulgar dado pessoal sem base legal ou informação protegida por sigilo.
+</ResumoBox>
+
+## Como a banca pode cobrar
+
+<PegadinhaBox>
+  A banca pode criar conflito aparente: cidadão pede informação pública que contém dado pessoal. A resposta correta não é negar tudo nem divulgar tudo. O órgão deve fornecer o que for público, proteger dados pessoais quando necessário e justificar eventual sigilo com base legal.
+</PegadinhaBox>
+
+## Pegadinhas comuns
+
+- Achar que LGPD impede toda transparência pública.
+- Achar que LAI autoriza divulgar qualquer dado pessoal sem critério.
+- Confundir transparência ativa com transparência passiva.
+- Esquecer que sigilo deve ter fundamento legal.
+- Tratar dado anonimizado como dado pessoal comum, sem observar se a anonimização é efetiva.
+
+## Checklist de revisão
+
+<Checklist
+  items={[
+    "Diferenciei dado pessoal e dado pessoal sensível.",
+    "Revisei tratamento de dados e agentes de tratamento.",
+    "Entendi publicidade como regra na LAI.",
+    "Diferenciei transparência ativa e transparência passiva.",
+    "Treinei casos com informação pública misturada a dado pessoal.",
+  ]}
+/>
+
+## Flashcards
+
+<Flashcard front="O que é dado pessoal?" back="Informação relacionada a pessoa natural identificada ou identificável." />
+<Flashcard front="O que é dado sensível?" back="Dado pessoal sobre temas como saúde, biometria, religião, origem racial ou étnica e opinião política." />
+<Flashcard front="O que é transparência ativa?" back="Divulgação de informações públicas pelo órgão, independentemente de pedido individual." />
+<Flashcard front="O que é transparência passiva?" back="Fornecimento de informação pública após solicitação do interessado." />
+<Flashcard front="A LAI elimina sigilos legais?" back="Não. A LAI prevê acesso à informação, mas admite hipóteses legais de sigilo." />
+
+## Questões rápidas
+
+<QuizQuestion
+  question="Informação relacionada a pessoa natural identificada ou identificável é:"
+  alternatives={["Dado pessoal.", "Arquivo executável.", "Pasta compactada.", "Link quebrado."]}
+  answer="A"
+  comment="Esse é o conceito básico de dado pessoal na LGPD."
+/>
+
+<QuizQuestion
+  question="Divulgação espontânea de informações no portal público, sem pedido individual, é:"
+  alternatives={["Transparência ativa.", "Transparência passiva.", "Criptografia simétrica.", "Backup incremental."]}
+  answer="A"
+  comment="Transparência ativa ocorre por iniciativa do próprio órgão."
+/>
+
+<QuizQuestion
+  question="Quando cidadão protocola pedido de informação, fala-se em:"
+  alternatives={["Transparência passiva.", "Formatação condicional.", "Ransomware.", "Colocação pronominal."]}
+  answer="A"
+  comment="Transparência passiva depende de solicitação apresentada ao órgão público."
+/>
+
+<QuizQuestion
+  question="A relação correta entre LAI e LGPD é:"
+  alternatives={["A LAI autoriza divulgar tudo sem limite.", "A LGPD elimina toda transparência.", "As duas devem ser harmonizadas no caso concreto.", "Nenhuma se aplica ao poder público."]}
+  answer="C"
+  comment="Transparência pública e proteção de dados devem ser compatibilizadas."
+/>
+
+<QuizQuestion
+  question="Informação sobre saúde de pessoa identificada é exemplo de:"
+  alternatives={["Dado pessoal sensível.", "Apenas URL.", "Atalho do sistema.", "Ato sem proteção jurídica."]}
+  answer="A"
+  comment="Dados de saúde integram categoria sensível e exigem maior cuidado."
+/>
+
+## Caixa de fontes oficiais
+
+<SourceBox name="LGPD - Lei nº 13.709/2018" link="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" note="Fonte oficial para conceitos, princípios, bases e regras de tratamento de dados pessoais." />
+<SourceBox name="LAI - Lei nº 12.527/2011" link="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" note="Fonte oficial para acesso à informação, transparência e sigilo." />
+<SourceBox name="Regulamentação da LAI - Prefeitura de Campina Grande" link="https://campinagrande.pb.gov.br/portal-da-transparencia/regulamentacao-da-lai/" note="Fonte municipal para transparência e acesso à informação no âmbito local." />
+
